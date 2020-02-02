@@ -1,0 +1,66 @@
+body {
+  background: #000 url(background.jpg) no-repeat top center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.overlay {
+  display: none;
+  color: rgb(77, 70, 70);
+  font-size: 24px;
+  text-align: center;
+  position: absolute;
+  top: 160px;
+  left: 180px;
+}
+
+.overlay a {
+  display: block;
+  margin-top: 10px;
+  padding: 10px;
+  background: gray;
+}
+
+.overlay a:hover {
+  background: #383838;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.container {
+  margin: 30px auto;
+  width: 620px;
+  overflow: auto;
+  position: relative;
+}
+
+canvas {
+  background: gold;
+  border: 1px solid purple;
+}
+
+.stats {
+  display: flex;
+  justify-content: center;
+  width: 590px;
+  background: rgb(218, 115, 218);
+  padding: 6px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #fff;
+  margin-bottom: 4px;
+}
+
+.score {
+  width: 25%;
+  height: 50px;
+  padding-top: 20px;
+  margin-right: 5px;
+  background: #000;
+}
+
+#reset {
+  padding: 8px;
+}

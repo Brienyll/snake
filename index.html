@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Mamba</title>
+    <link rel="stylesheet" href="style.css" type="text/css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="overlay">
+        Score: <span id="final_score"></span>
+        <br />
+        <a onClick="window.location.reload()" href="#">Click To Play Again</a>
+      </div>
+      <canvas id="canvas" width="600" height="400">
+        Sorry, this browser does not support the canvas element
+      </canvas>
+      <div class="stats">
+        <div class="score"></div>
+        <div class="score"></div>
+        <button onclick="resetScore()" id="reset">
+          Reset High Score
+        </button>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
